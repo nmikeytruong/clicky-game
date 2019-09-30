@@ -81,7 +81,7 @@ class ClickyGame extends Component {
               id={item.id}
               shake={!this.state.score && this.state.topScore}
               handleClick={this.handleItemClick}
-              image={item.image}
+              image={process.env.PUBLIC_URL + item.image}
             />
           ))}
         </Container>
