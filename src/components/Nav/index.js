@@ -8,7 +8,7 @@ function Nav(props) {
       <h1>
         <ul>
           <li className="brand">
-            <a href="/">Clicky PokeGame/Restart</a>
+            <a href="/nmikeytruong.github.io/clicky-game/">Clicky PokeGame/Restart</a>
           </li>
           <ClickAlert score={props.score} topScore={props.topScore} />
           <li>
